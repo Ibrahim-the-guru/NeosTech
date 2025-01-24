@@ -124,3 +124,12 @@ footer {
     color: #333;
     margin-top: 50px;
 }
+
+.anim {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.anim.fade-in {
+    opacity: 1;
+}
